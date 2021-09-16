@@ -20,6 +20,7 @@ prepare_configs() {
     LIGHTTPD_CFG="lighttpd.conf.debian"
     installConfigs
     touch "$setupVars"
+    touch "/etc/pihole/pihole-FTL.conf"
     set +e
     mkdir -p /var/run/pihole /var/log/pihole
     # Re-apply perms from basic-install over any volume mounts that may be present (or not)
