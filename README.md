@@ -10,6 +10,9 @@
 1. Copy docker-compose.yml.example to docker-compose.yml and update as needed. See example below:
 [Docker-compose](https://docs.docker.com/compose/install/) example:
 
+Note: Link to install dokcer and docker compose 
+https://devdojo.com/bobbyiliev/how-to-install-docker-and-docker-compose-on-raspberry-pi
+
 ```yaml
 version: "3"
 
